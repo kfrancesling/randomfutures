@@ -1,0 +1,59 @@
+
+h1 { /*  your title font style  */ 
+    font-weight: 100; 
+    font-size: 2.5em;
+}
+    
+#content { 
+ width: 600px;  /*  the width of your box */ 
+ margin: 0 auto; 
+ margin-top: 50px; 
+ border: 1px dotted black;    /*  the style of your boxes border */    
+ text-align: center; 
+ font-family: 'Helvetica Neue', arial; /*  your font */ 
+ font-weight: 100;
+}
+
+div.eight-ball {
+  background-color: black; /*  the background colour of your 8 ball outside */ 
+  border: 1px solid black;
+  border-radius: 50%; /*  styling to make cirular this and below */ 
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+div.answer {
+  background-color: #333; /*  the background colour of your 8 ball inside */ 
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+}
+
+p#eight {
+  font-size: 5em;
+  margin: 20% auto;
+  color: white;
+}
+
+p#answer {
+  padding: 23px;
+  color: lightblue; /*  font colour for your answer */ 
+  letter-spacing: 2px;
+  font-size:18px;
+}
+
+#question {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  font-size:22px;
+}
+
+#info {
+  font-size: 22px;
+}
